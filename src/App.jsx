@@ -150,7 +150,7 @@ function App() {
       <section id="home" className="min-h-screen flex items-center justify-center relative z-10">
         <div className="text-center max-w-4xl mx-auto px-4">
           <img
-            src="src/assets/unnamed.jpg"
+            src="/unnamed.jpg"
             alt="Foto de Antoniel Silva"
             className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full border-4 border-[#d8aa2a] mb-6"
           />
@@ -213,7 +213,7 @@ function App() {
             <div className="text-center mt-8">
               <Button className="lightsaber-btn jedi-btn">
                 <Download className="mr-2" size={16} />
-                <a href="public/Currículo_.pdf" Download target="_blank" rel="noopener noreferrer">
+                <a href="/Currículo_.pdf" download target="_blank" rel="noopener noreferrer">
                   BAIXAR CURRÍCULO
                 </a>
               </Button>
@@ -314,7 +314,7 @@ function App() {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-[#00bfff] glow-text starwars-font">
             CANAL DE COMUNICAÇÃO
           </h2>
-          <div className=" grid md:grid-cols-1 gap-12 flex ">
+          <div className=" grid md:grid-cols-1 gap-12 flex">
             <div className="hologram-panel p-8">
               <h3 className="text-2xl font-semibold mb-6 text-[#00ffff] glow-text-cyan">Transmissão Direta</h3>
               <p className="text-gray-300 mb-8 leading-relaxed">
